@@ -30,7 +30,7 @@ resource "aws_lambda_function" "notification" {
   timeout          = "120"
 
   environment = {
-    variables {
+    variables = {
       HOOK_URL = "${var.slack_hook_url}"
       CHANNEL  = "${var.slack_channel}"
     }

@@ -31,7 +31,7 @@ resource "aws_lambda_function" "delivery" {
   timeout          = "120"
 
   environment = {
-    variables {
+    variables = {
       NODE_ENV                     = "${terraform.env}"
       JOURNAL_DELIVERY_STREAM_NAME = "${var.fh_stream_journal_function_name}"
       ERROR_DELIVERY_STREAM_NAME   = "${var.fh_stream_error_function_name}"
