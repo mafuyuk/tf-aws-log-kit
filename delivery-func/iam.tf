@@ -43,7 +43,7 @@ resource "aws_iam_role_policy" "lambda_writes_to_cwe_policy" {
 EOF
 }
 
-resource "aws_iam_role_policy" "ntpf_fh_sts_policy" {
+resource "aws_iam_role_policy" "fh_sts_policy" {
   provider = "aws.src"
   role     = "${aws_iam_role.lambda.id}"
 
