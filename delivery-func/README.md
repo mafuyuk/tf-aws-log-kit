@@ -1,4 +1,4 @@
-# terraform-aws-log-operation//delivery-func
+# tf-aws-log-kit//delivery-func
 ロググループのサブスクリプションフィルタをトリガとしたLambdaを作成する
 そのLambdaはログのフィルターにマッチした形に整形し、指定のKinesis FHにデータを流し込む
 

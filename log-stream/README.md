@@ -1,4 +1,4 @@
-# terraform-aws-log-operation//log-stream
+# tf-aws-log-kit//log-stream
 ログの配信を行うKinesis Firehoseのストリームを作成します
 
 ## Usage

@@ -1,4 +1,4 @@
-# terraform-aws-log-operation//chat-notification
+# tf-aws-log-kit//chat-notification
 Slackに通知を送るLambdaを作成する
 トリガーとしてSNSを登録してあるため、SNSをキックすることで利用できる
 
